@@ -13,7 +13,7 @@ public class Adventure {
 
     }
     private static void displayLands() {
-        List<DisneyLand> themaParks= new ArrayList<DisneyLand>();
+        List<DisneyLand> themaParks= new ArrayList<>();
         themaParks.add(new MickeysTown());
         themaParks.add(new AdventureLand());
         themaParks.add(new FantasyLand());
