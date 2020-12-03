@@ -2,11 +2,22 @@ package ba.codecta.disneychars;
 
 public class MickeyCharacter extends DisneyCharacter {
 
-    public String getName() {
-        return null;
+    public MickeyCharacter()
+    {
+        imageFilename = "Images\\mickey.jpg";
     }
 
-    public String getImageName() {
-        return null;
+    public String getName() {
+        return "Mickey";
     }
+
+
+    public String welcomeMessage(){
+        return "Hello Welcome to " + this.getName() + "'s world! Happy you choose me to play! Let's start...! ";
+
+
+    }
+
+
+
 }

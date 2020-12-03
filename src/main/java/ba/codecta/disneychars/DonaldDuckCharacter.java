@@ -1,9 +1,10 @@
 package ba.codecta.disneychars;
 
-public class MiniCharacter extends DisneyCharacter {
+public class DonaldDuckCharacter extends DisneyCharacter {
 
+    @Override
     public String getName() {
-        return "Mini!";
+        return "Donald Duck!";
     }
 
     @Override
@@ -11,6 +12,4 @@ public class MiniCharacter extends DisneyCharacter {
         return "Hello";
 
     }
-
-
 }
