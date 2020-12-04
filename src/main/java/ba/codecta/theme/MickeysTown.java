@@ -1,9 +1,6 @@
 package ba.codecta.theme;
 
-import ba.codecta.disneychars.DisneyCharacter;
-import ba.codecta.disneychars.MickeyCharacter;
-import ba.codecta.disneychars.PlutoCharacter;
-import ba.codecta.disneychars.ReadFileAsString;
+import ba.codecta.disneychars.*;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -37,6 +34,7 @@ public class MickeysTown implements DisneyLand {
     public void proceedVisitor() {
         mickeyCharacter = new MickeyCharacter();
         plutoCharacter = new PlutoCharacter();
+        Browser browser= new Browser();
         boolean introState = true;
         do {
             weclomeMessage();
@@ -74,6 +72,7 @@ public class MickeysTown implements DisneyLand {
     public static void presentMickeyTownCharcher(DisneyCharacter character) {
 
         System.out.printf("My name is: %s\nAnd my greeting is: \n%s\nAnd my picture is: %s\n\n", character.getName(), character.welcomeMessage(), character.picture());
+
 
 
     }

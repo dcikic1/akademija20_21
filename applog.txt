@@ -20,3 +20,7 @@ INFO    2020-12-03 13:05:43,058 [ba.codecta.Adventure.main()] ba.codecta.Adventu
 INFO    2020-12-03 13:18:50,530 [ba.codecta.Adventure.main()] ba.codecta.Adventure  - User entered: 1
 INFO    2020-12-03 13:18:50,532 [ba.codecta.Adventure.main()] ba.codecta.theme.MickeysTown  - Started reading file...
 INFO    2020-12-03 13:18:50,536 [ba.codecta.Adventure.main()] ba.codecta.theme.MickeysTown  - File read successfully
+INFO    2020-12-03 18:45:45,846 [main] ba.codecta.Adventure  - User entered: 1
+INFO    2020-12-03 18:45:45,876 [main] ba.codecta.theme.MickeysTown  - Started reading file...
+INFO    2020-12-03 18:45:45,902 [main] ba.codecta.theme.MickeysTown  - File read successfully
+INFO    2020-12-03 18:46:04,420 [main] ba.codecta.Adventure  - User entered: 2

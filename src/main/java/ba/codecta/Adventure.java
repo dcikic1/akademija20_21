@@ -19,21 +19,27 @@ public class Adventure {
 
     public static void main(String[] args) {
 
-       // PropertyConfigurator.configure("src\\main\\resources\\log\\log4j.properties");
-        //System.out.println("args:");
-       // for (String arg : args) {
-        //    System.out.println(arg);
+     PropertyConfigurator.configure("src\\main\\resources\\log\\log4j.properties");
 
-       // }
-       // if (args[0].equals("disneyland")) {
+    /* System.out.println("args:");
+        for (String arg : args) {
+            System.out.println(arg);
 
-         //   presentDinseyLands();
-        //    logger.info("App started");
-       // }
+        }
+       if (args[0].equals("disneyland")) {
+
+            presentDinseyLands();
+            logger.info("App started");
+        }
+        else presentNetflix();*/
+       // presentDinseyLands();
+       presentNetflix();
+
+
+    }
+    public static void presentNetflix(){
         Movies movies= new Movies();
         movies.proceedUser();
-
-
     }
 
 
